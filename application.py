@@ -1,7 +1,6 @@
 from flask import Flask
-
 application = Flask(__name__)
-
+app = application
 
 @application.route("/")
 def inxed_1():
@@ -19,11 +18,6 @@ def inxed_3(user):
 def inxed_4(x):
     return str(x) + ' v kvadrate = ' + str(int(x)*int(x))
 
-
-
 if __name__ == "__main__":
     application.debug = True
     application.run()
-
-
-# requriments.txt
