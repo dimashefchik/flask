@@ -5,7 +5,7 @@ app = application
 
 @application.route('/')
 def inxed_1():
-    return 'Hello! The first flask page!!'
+    return 'Hello! The first flask page!! ON AMAZOOOOON'
 
 @application.route('/help')
 def inxed_2():
