@@ -11,10 +11,10 @@ def inxed_1():
 def inxed_2():
     return '<b>This is  help page!!<b>'
 
-@application.route('/name/<user>')
+@application.route('/<user>')
 def inxed_3(user):
     return 'Name ' + user.upper()
 
-@application.route('/kvadrat/<x>')
+@application.route('/<x>')
 def inxed_4(x):
     return str(x) + ' v kvadrate = ' + str(int(x)*int(x))
